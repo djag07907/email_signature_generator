@@ -115,7 +115,7 @@ input[type="tel"]:focus::-webkit-input-placeholder {
   align-items: center;
   margin: 20px auto;
   width: 50%;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   padding: 20px;
   text-align: center;
 }
@@ -126,4 +126,18 @@ input[type="tel"]:focus::-webkit-input-placeholder {
 }
 #signature p {
   margin: 0;
+}
+
+#output-socialmedia img {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+#signature-container {
+  justify-content: center;
+}
+#output-socialmedia {
+  display: flex;
+  justify-content: center;
 }
